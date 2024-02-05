@@ -2,10 +2,13 @@ import './App.css';
 import SayMyName from './components/SayMyName';
 import Pessoa from './components/Pessoa';
 import List from './components/list';
+import Eventos from './components/eventos';
+import Form from './components/form';
 function App() {
 
 return (
    <div className="App">
+    <Form/>
     <List />
     <SayMyName name='Vinipet  '/>
     <SayMyName name='cu de vrido  '/>
@@ -16,6 +19,7 @@ return (
       occupation='estudante'
       img='https://via.placeholder.com/150'
     />
+   <Eventos />
    </div>
   );
 
